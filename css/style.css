@@ -151,7 +151,7 @@ background-position: center;background-repeat: no-repeat;max-width: 1600px;margi
     letter-spacing: 0.06em;
     color: var(--on-top-color);background:var(--accent-color) ;
     cursor:pointer;
-    transition: background 205ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1),box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
 .hero-main-btn:hover,
@@ -160,8 +160,10 @@ background-position: center;background-repeat: no-repeat;max-width: 1600px;margi
 
 .main-menu-list{display: flex;box-sizing: border-box;}
 
-.icon-container{background-color: #F5F4FA;height: 120px;width: 270px; display: flex;align-items: center; justify-items: center;
+.icon-container{background-color: #F5F4FA;height: 120px;width: 270px; display: flex;align-items: center; justify-content: center;
     border-radius: 4px;}
+
+    .icon-logo-style{}
 
 .main-menu-item{margin-top: 30px;
     font-weight: 700;
